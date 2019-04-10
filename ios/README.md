@@ -1,5 +1,7 @@
 # Maptime Mobile Mapping Workshop - iOS platform
 
+![mobile-map-ios](mobile-map-ios.png)
+
 ## Installation instructions
 
 In order to spend less time configuring a new project and more time building, the iOS project in this folder contains an app already set up with the Mapbox Maps SDK.

@@ -53,12 +53,14 @@ class SecondViewController: UIViewController, MGLMapViewDelegate {
         // One of the most powerful features of mobile mapping is the ability to read data sources from
         // somewhere else and add them to a map! Below is a url to a GeoJSON feed of earthquakes recorded
         // by the USGS within the past week. In this challenge, you should:
-        // • Register a new data source with the map by creating a new MGLShapeSource with the above URL
+        // • Register a new data source with the map by creating a new MGLShapeSource with the below URL
         //   API reference: https://docs.mapbox.com/ios/api/maps/4.9.0/Classes/MGLShapeSource.html
         // • Create a new style layer to visualize the data source using MGLCircleStyleLayer
         //   API reference: https://docs.mapbox.com/ios/api/maps/4.9.0/Classes/MGLCircleStyleLayer.html
         // • Add the new data source and style layer to the map's style
         //   API reference: https://docs.mapbox.com/ios/api/maps/4.9.0/Classes/MGLStyle.html
+
+        let earthquakeUrl = URL(string: "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson")!
 
         // ⭐️ Challenge: Style each circle based off of an earthquake's intensity
         // Once you have completed the above challenge, you will see black circles on your map
