@@ -9,7 +9,7 @@ class FirstViewController: UIViewController, MGLMapViewDelegate {
         super.viewDidLoad()
 
         // ⭐️ Challenge: Customize the Mapbox Style
-        // MGLStyle.streetsStyleURL is a conveninent shorthand our SDK provides that points to
+        // MGLStyle.streetsStyleURL is a convenient shorthand our SDK provides that points to
         // the most current Mapbox Streets style (see https://docs.mapbox.com/ios/api/maps/4.9.0/Classes/MGLStyle.html).
         // Can you change the style URL below to point to your custom Mapbox Studio Style?
         // • Example reference: https://docs.mapbox.com/ios/maps/examples/custom-style/
