@@ -60,13 +60,6 @@ class SecondViewController: UIViewController, MGLMapViewDelegate {
         // • Add the new data source and style layer to the map's style
         //   API reference: https://docs.mapbox.com/ios/api/maps/4.9.0/Classes/MGLStyle.html
 
-        let earthquakeUrl = URL(string: "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson")!
-        let circleSource = MGLShapeSource(identifier: "earthquake-data-source", url: earthquakeUrl, options: nil)
-        let circleLayer = MGLCircleStyleLayer(identifier: "earthquake-data-style", source: circleSource)
-
-        style.addSource(circleSource)
-        style.addLayer(circleLayer)
-
         // ⭐️ Challenge: Style each circle based off of an earthquake's intensity
         // Once you have completed the above challenge, you will see black circles on your map
         // representing the locations of earthquakes that have occurred within the past week.
