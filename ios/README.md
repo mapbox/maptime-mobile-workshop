@@ -6,18 +6,36 @@ In order to spend less time configuring a new project and more time building, th
 
 You will need to complete a couple of more steps to get it running:
 
-1. Open the <FILENAME> file, which will open the project in Xcode.
+1. Open the `maptime-mobile/maptime-mobile.xcodeproj` file, which will open the project in Xcode.
 2. Navigate to the `Info.plist` file using the file navigator on the left. This file contains key/value pairs that your project uses to configure internal app settings and user preferences. 
 3. Find the `MGLMapboxAccessToken` key, and enter your access token as a string value to the right of it. You can find your access token at https://account.mapbox.com/access-tokens/.
-4. Press the ▶️ button on the top right corner to run the project. You should see an iPhone simulator start up and then display a basic map. If you don't see a map but your app runs, make sure you entered your access token correctly.
+4. Press the ▶️ button on the top left corner to run the project. You should see an iPhone simulator start up and then display a basic map. If you don't see a map but your app runs, make sure you entered your access token correctly.
 
-## Task #2: Understanding the basics of the Mapbox Maps SDKs for iOS
+## Task 2:
+### Understanding the basics of the Mapbox Maps SDKs for iOS
 
-All of your code will go in the `ViewController_task2.swift` or `ViewController_task3.swift` file. Every time you want run this file, you will need to re-run the application. Comments are prefaced with a double forward slash (`//`), and will guide you through the exercises.
+For this task, you will be working in the `FirstViewController.swift` file. Your goal is to:
+- Understand how to set a map's style
+- Set the default center coordinate and zoom level of the map
+- Add a basic marker with a callout
 
-## Task #3: Advanced topics within the Mapbox Maps SDKs for iOS
+Comments are prefaced with a double forward slash (`//`), and will guide you through the exercises. If you want to see the results of each change you make to your code, you will need to re-run the application by pressing the ▶️ button on the top left corner of Xcode to run the project.
 
+## Task 3: 
+### Advanced topics within the Mapbox Maps SDKs for iOS
 
-To set up your project for the next round of tasks, navigate to the `Main.storyboard` and ...
+For this task, you will be working in the `SecondViewController.swift` file. Your goal is to:
+- Change the color of country borders
+- Add data from an external API
+- Style data based off of a certain attribute value
 
-Once you have ..., you can move on to more advanced tasks by working in the `ViewController_task3.swift` file. Comments are prefaced with a double forward slash (`//`), and will guide you through the next set of exercises.
+Comments are prefaced with a double forward slash (`//`), and will guide you through the exercises. If you want to see the results of each change you make to your code, you will need to re-run the application by pressing the ▶️ button on the top left corner of Xcode to run the project.
+
+### Useful references & additional resources:
+- API documentation for the Mapbox Maps SDK: https://docs.mapbox.com/ios/api/maps/
+- iOS examples: https://docs.mapbox.com/ios/maps/examples/
+- Tutorials: https://docs.mapbox.com/help/tutorials/
+- The Swift Programming language guide: https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html
+- The Swift Standard Library: https://developer.apple.com/documentation/swift/swift_standard_library
+- Raywenderlich.com (excellent iOS tutorials): https://www.raywenderlich.com/ios
+
