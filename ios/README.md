@@ -35,6 +35,7 @@ Comments are prefaced with a double forward slash (`//`), and will guide you thr
 
 ### Useful references & additional resources:
 - API documentation for the Mapbox Maps SDK: https://docs.mapbox.com/ios/api/maps/
+- Maps SDK for iOS overview: https://docs.mapbox.com/ios/maps/overview
 - iOS examples: https://docs.mapbox.com/ios/maps/examples/
 - Tutorials: https://docs.mapbox.com/help/tutorials/
 - The Swift Programming language guide: https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html

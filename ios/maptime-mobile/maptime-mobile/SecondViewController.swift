@@ -19,7 +19,7 @@ class SecondViewController: UIViewController, MGLMapViewDelegate {
     // 🔥 Hot tip: Wait for the map to finish loading before trying to change it.
     // The below didFinishLoading method is called a "delegate method". It is called in response to the
     // map performing some event. In this case, this method gets called when the map's
-    // style has finished loading. If you tried to manipulate a map style before the style
+    // style has finished loading. If you try to manipulate a map style before the style
     // has finished loading (such as in viewDidLoad), the app could crash.
     // API reference: https://docs.mapbox.com/ios/api/maps/4.9.0/Protocols/MGLMapViewDelegate.html
 

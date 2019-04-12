@@ -32,7 +32,7 @@ class FirstViewController: UIViewController, MGLMapViewDelegate {
         view.addSubview(mapView)
     }
 
-    // This function tells any MGLPointAnnotation to display a callout. Uncomment these lines
+    // This function tells any MGLPointAnnotation to display a callout. Uncomment the code below
     // if you want to show a callout when you tap on your marker.
     
 //    func mapView(_ mapView: MGLMapView, annotationCanShowCallout annotation: MGLAnnotation) -> Bool {
