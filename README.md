@@ -8,13 +8,13 @@ Here you will learn how to work with the web-based Mapbox Studio interface to de
 
 ### Create a Mapbox Account
 
-- You will need to have a Mapbox account to start building. Head on over to [mapbox.com](https://www.mapbox.com/) to sign up.
+- You will need to have a Mapbox account to start building. Head on over to [mapbox.com](https://account.mapbox.com/auth/signup/) to sign up.
 
 ### Design a new custom style
 
-- *Go to Mapbox.com.studio to launch Mapbox Studio*
+- *Go to Mapbox.com/studio to launch Mapbox Studio*
 - Using this tutorial, create and publish a new custom [Mapbox Studio Style](https://docs.mapbox.com/help/tutorials/create-a-custom-style/).
-  - Already have data you want to visualize? Check out [this guide](https://docs.mapbox.com/studio-manual/overview/geospatial-data/) to learn how to upload your own custom data to use in a style.
+  - Alternatively, if you feel comfortable with Studio already or have an existing style you want to use, you can skip to tasks 2 and 3.
 
 ## Task #2: Understanding the basics of the Mapbox Maps SDKs
 

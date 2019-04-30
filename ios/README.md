@@ -2,16 +2,25 @@
 
 ![mobile-map-ios](mobile-map-ios.png)
 
+## Getting started with Xcode
+
+Open the `maptime-mobile/maptime-mobile.xcodeproj` file, which will open the project in Xcode. If you've never opened the Xcode application before, it can be very overwhelming. Below is an overview of some basic functionality that you will found helpful during the course of this project:
+
+![Xcode window with all panels open](xcode.png)
+
 ## Installation instructions
 
-In order to spend less time configuring a new project and more time building, the iOS project in this folder contains an app already set up with the Mapbox Maps SDK.
+Now that you've opened the project in Xcode, we can run it for the first time. In order to spend less time configuring a new app and more time building, the iOS project in this folder contains an app already set up with the Mapbox Maps SDK.
 
-You will need to complete a couple of more steps to get it running:
+To run this app, you will need to complete a couple of more steps to get it running:
 
-1. Open the `maptime-mobile/maptime-mobile.xcodeproj` file, which will open the project in Xcode.
-2. Navigate to the `Info.plist` file using the file navigator on the left. This file contains key/value pairs that your project uses to configure internal app settings and user preferences. 
-3. Find the `MGLMapboxAccessToken` key, and enter your access token as a string value to the right of it. You can find your access token at https://account.mapbox.com/access-tokens/.
-4. Press the ▶️ button on the top left corner to run the project. You should see an iPhone simulator start up and then display a basic map. If you don't see a map but your app runs, make sure you entered your access token correctly.
+2. Navigate to the `Info.plist` file using the navigator panel on the left. This file contains key/value pairs that your project uses to configure internal app settings and user preferences. 
+3. Find the `MGLMapboxAccessToken` key, and enter your access token as a string value to the right of it. You can find your access token at https://account.mapbox.com/access-tokens/ once you have created your Mapbox account.
+4. Xcode allows you simulate what an application would look like on a variety of devices through the use of a built-in simulator. You will need to select which device you would like to run your application on by selecting it from a drop-down list on the top left corner of Xcode, shown in the image below. After you have selected a device, press the ▶️ button on the top left corner to run the project. 
+
+![Detail of Xcode showing the simulator selector](run-app.png)
+
+You should see an iPhone simulator start up and then display a basic map. If you don't see a map but your app runs, make sure you entered your access token correctly. Any additional errors, should they occur, will appear on the right side of the debug panel.
 
 ## Task 2
 ### Understanding the basics of the Mapbox Maps SDKs for iOS
