@@ -12,7 +12,7 @@ Here you will learn how to work with the web-based Mapbox Studio interface to de
 
 ### Design a new custom style
 
-- *Go to Mapbox.com/studio to launch Mapbox Studio*
+- *Go to https://studio.mapbox.com/ to launch Mapbox Studio*
 - Using this tutorial, create and publish a new custom [Mapbox Studio Style](https://docs.mapbox.com/help/tutorials/create-a-custom-style/).
   - Alternatively, if you feel comfortable with Studio already or have an existing style you want to use, you can skip to tasks 2 and 3.
 
